@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-dioxus = { version = "0.6.0-alpha.2", features = ["web"] }
+# dioxus = { version = "0.6.0-alpha.2", features = ["web"] }
+dioxus = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "9816b40" }
